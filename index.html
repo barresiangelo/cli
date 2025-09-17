@@ -1,15 +1,103 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Dispensa di Informatica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia Home Page</title>
+    <style>
+        /* Stile generale */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f8fa;
+            color: #24292e;
+        }
+
+        /* Header e menu */
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenuto principale */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Titoli sezione */
+        h2 {
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 5px;
+        }
+
+        /* Foto esempio */
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #6a737d;
+        }
+    </style>
 </head>
 <body>
-  <h1>Dispensa del corso</h1>
-  <p>Benvenuti! Qui trovate i materiali.</p>
-  <ul>
-    <li><a href="dispensa1.pdf">Dispensa 1</a></li>
-    <li><a href="immagine1.jpg">Immagine</a></li>
-  </ul>
+
+    <header>
+        <h1>La mia Pagina</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Foto</a>
+            <a href="#">Articoli</a>
+            <a href="#">Contatti</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Benvenuti!</h2>
+        <p>Questa è la mia home page. Qui posso scrivere testi, mostrare foto o qualsiasi cosa voglia condividere.</p>
+
+        <h2>Sezione Foto</h2>
+        <p>Ecco un esempio di immagine:</p>
+        <img src="foto1.jpg" alt="Foto esempio">
+
+        <h2>Sezione Articoli</h2>
+        <p>Qui posso aggiungere link ai miei articoli o scrivere dei post interessanti.</p>
+    </main>
+
+    <footer>
+        &copy; 2025 La mia Pagina
+    </footer>
+
 </body>
 </html>
